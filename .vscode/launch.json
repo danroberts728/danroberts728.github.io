@@ -1,0 +1,14 @@
+  {
+      "version": "0.2.0",
+      "configurations": [
+        {
+          "type": "chrome", // or "chrome"
+          "request": "launch",
+          "name": "Launch http-server",
+          "url": "http://localhost:8080", // Adjust port if http-server uses a different one
+          "webRoot": "${workspaceFolder}",
+          "preLaunchTask": "start http-server",
+          "postDebugTask": "stop http-server" // Optional: if you want to stop the server when debugging ends
+        }
+      ]
+    }

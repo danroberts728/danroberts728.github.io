@@ -1,0 +1,56 @@
+[
+  {
+    "name": "CraftysCocktails",
+    "description": "The Crafty's Cocktails 32-drink tournament app with themed nights, recipes, and live brackets.",
+    "html_url": "https://github.com/danroberts728/CraftysCocktails",
+    "homepage": "https://danroberts728.github.io/CraftysCocktails/",
+    "default_branch": "main",
+    "archived": false,
+    "languages": { "JavaScript": 75.4, "HTML": 16.8, "CSS": 7.8 },
+    "branches": 3,
+    "last_commit": "2025-09-29T21:42:10Z"
+  },
+  {
+    "name": "trail_app",
+    "description": "Alabama Beer Trail App. Check into breweries, earn badges, drink beer!",
+    "html_url": "https://github.com/danroberts728/trail_app",
+    "default_branch": "main",
+    "archived": false,
+    "languages": { "JavaScript": 70.5, "CSS": 17.6, "HTML": 11.9 },
+    "branches": 2,
+    "last_commit": "2025-09-25T18:07:51Z"
+  },
+  {
+    "name": "MoodyBudgetAnalysis",
+    "description": "Interactive D3 visualization of Moody’s city budget data with drill-down and pie charts.",
+    "html_url": "https://github.com/danroberts728/MoodyBudgetAnalysis",
+    "homepage": "https://danroberts728.github.io/MoodyBudgetAnalysis/",
+    "default_branch": "main",
+    "archived": false,
+    "languages": { "JavaScript": 78.9, "HTML": 12.3, "CSS": 8.8 },
+    "branches": 3,
+    "last_commit": "2025-09-30T12:14:33Z"
+  },
+  {
+    "name": "F3MilestoneBot",
+    "description": "Slack bot that announces and tracks F3 workout milestones for local AOs.",
+    "html_url": "https://github.com/danroberts728/F3MilestoneBot",
+    "homepage": "",
+    "default_branch": "main",
+    "archived": false,
+    "languages": { "Python": 62.1, "JavaScript": 24.5, "Shell": 13.4 },
+    "branches": 4,
+    "last_commit": "2025-09-27T09:03:19Z"
+  },
+  {
+    "name": "f3_scripts",
+    "description": "A set of automation scripts for F3 workouts, data collection, and validation.",
+    "html_url": "https://github.com/danroberts728/f3_scripts",
+    "homepage": "",
+    "default_branch": "main",
+    "archived": false,
+    "languages": { "Python": 82.5, "Shell": 10.3, "YAML": 7.2 },
+    "branches": 2,
+    "last_commit": "2025-09-22T11:29:46Z"
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "username": "danroberts728",
+  "include": [
+    "CraftysCocktails",
+    "trail_app",
+    "MoodyBudgetAnalysis",
+    "F3MilestoneBot",
+    "f3_scripts"
+  ],
+  "exclude": []
+}

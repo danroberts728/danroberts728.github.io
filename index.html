@@ -1,9 +1,55 @@
-
 <!doctype html>
 <html lang="en">
 <head>
-  <title>Dan Roberts</title>
+  <meta charset="utf-8" />
+  <title>Projects • Daniel Roberts</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="favicon.ico" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
 <body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <img id="profile-photo" class="avatar" alt="Profile photo" />
+      <div class="header-copy">
+        <h1 id="display-name"></h1>
+        <p id="tagline"></p>
+        <div id="contact-links" class="links"></div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="projects" class="grid"></section>
+
+    <template id="project-card-tpl">
+      <article class="card">
+        <div class="shot-wrap">
+          <img class="screenshot" alt="" loading="lazy" />
+        </div>
+        <div class="card-body">
+          <h2 class="title"></h2>
+          <p class="desc"></p>
+          <ul class="meta">
+            <li class="langs"></li>
+            <li class="updated"></li>
+            <li class="branches"></li>
+          </ul>
+          <div class="actions">
+            <a class="btn code" target="_blank" rel="noopener">Code</a>
+            <a class="btn live" target="_blank" rel="noopener" hidden>Live</a>
+          </div>
+        </div>
+      </article>
+    </template>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© <span id="year"></span> <span id="display-name-footer"></span></small>
+    </div>
+  </footer>
+
+  <script type="module" src="./src/app.js"></script>
 </body>
 </html>
