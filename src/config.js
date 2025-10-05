@@ -1,6 +1,6 @@
 export const PROFILE = {
-  displayName: "Daniel Roberts",
-  tagline: "",
+  displayName: "Dan Roberts",
+  tagline: "Technology • Beatdowns • Cocktails",
   links: [
     { label: "GitHub", url: "https://github.com/danroberts728" }
   ]
