@@ -56,6 +56,15 @@ function normalizeLangPercents(langBytes) {
   return Object.fromEntries(entries.map(([k, v]) => [k, +(v * (100 / sumTop)).toFixed(1)]));
 }
 
+async function getPagesUrl(user, repo) {
+  try {
+    const pages = await getJSON(`https://api.github.com/repos/${user}/${repo}/pages`);
+    return pages?.html_url || "";
+  } catch {
+    return "";
+  }
+}
+
 async function pickScreenshot(user, repo) {
   // 1) Try README first image (markdown or HTML)
   try {
@@ -87,7 +96,7 @@ async function pickScreenshot(user, repo) {
     try {
       const info = await getJSON(`https://api.github.com/repos/${user}/${repo}/contents/${p}`);
       if (info?.download_url) return info.download_url;
-    } catch {/* try next */}
+    } catch {/* try next */ }
   }
 
   return ""; // not found
@@ -151,7 +160,7 @@ async function main() {
       shotUrl = await pickScreenshot(USER, r.name);
       if (shotUrl) {
         const ext = (shotUrl.split(".").pop() || "jpg").toLowerCase();
-        const safeExt = ["png","jpg","jpeg","webp"].includes(ext) ? ext : "jpg";
+        const safeExt = ["png", "jpg", "jpeg", "webp"].includes(ext) ? ext : "jpg";
         await downloadTo(shotUrl, path.join(SHOTS_DIR, `${r.name}.${safeExt}`));
         // normalize extension to .jpg on disk for simplicity
         if (safeExt !== "jpg") {
@@ -165,11 +174,17 @@ async function main() {
       console.warn(`No screenshot for ${r.name}`);
     }
 
+    // inside the loop, before pushing
+    let homepage = r.homepage || "";
+    if (!homepage && r.has_pages) {
+      homepage = await getPagesUrl(USER, r.name);
+    }
+
     out.push({
       name: r.name,
       description: r.description,
       html_url: r.html_url,
-      homepage: r.homepage,
+      homepage: homepage,
       default_branch: r.default_branch || "main",
       archived: !!r.archived,
       languages: normalizeLangPercents(langsRaw),
