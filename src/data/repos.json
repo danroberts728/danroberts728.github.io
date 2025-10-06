@@ -1,5 +1,48 @@
 [
   {
+    "name": "Surprise-Me-Lindsay",
+    "description": "Tell me what you have and I'll give you some ideas of what you can make.",
+    "html_url": "https://github.com/danroberts728/Surprise-Me-Lindsay",
+    "homepage": "https://danroberts728.github.io/Surprise-Me-Lindsay/",
+    "default_branch": "main",
+    "archived": false,
+    "languages": {
+      "JavaScript": 67.3,
+      "CSS": 19.6,
+      "HTML": 13
+    },
+    "branches": 2,
+    "last_commit": "2025-10-06T21:37:38Z"
+  },
+  {
+    "name": "danroberts728.github.io",
+    "description": "Home page",
+    "html_url": "https://github.com/danroberts728/danroberts728.github.io",
+    "homepage": "https://danroberts728.github.io/",
+    "default_branch": "main",
+    "archived": false,
+    "languages": {
+      "JavaScript": 74.6,
+      "CSS": 14.5,
+      "HTML": 10.9
+    },
+    "branches": 2,
+    "last_commit": "2025-10-06T19:50:29Z"
+  },
+  {
+    "name": "CocktailIngest",
+    "description": "A scalable data scraper to build a cocktail database from various web sources.",
+    "html_url": "https://github.com/danroberts728/CocktailIngest",
+    "homepage": "",
+    "default_branch": "main",
+    "archived": false,
+    "languages": {
+      "Python": 100
+    },
+    "branches": 1,
+    "last_commit": "2025-10-06T19:33:38Z"
+  },
+  {
     "name": "CraftysCocktails",
     "description": "Showing the Crafty's Cocktails bracket. Reads from Google sheet.",
     "html_url": "https://github.com/danroberts728/CraftysCocktails",
@@ -13,6 +56,32 @@
     },
     "branches": 2,
     "last_commit": "2025-10-05T18:37:47Z"
+  },
+  {
+    "name": "MoodyBudgetAnalysis",
+    "description": "Interactive D3 visualization of Moody’s city budget data with drill-down and pie charts.",
+    "html_url": "https://github.com/danroberts728/MoodyBudgetAnalysis",
+    "homepage": "https://danroberts728.github.io/MoodyBudgetAnalysis/",
+    "default_branch": "main",
+    "archived": false,
+    "languages": {
+      "JavaScript": 73.4,
+      "CSS": 22.8,
+      "HTML": 3.8
+    },
+    "branches": 2,
+    "last_commit": "2025-10-03T14:28:47Z"
+  },
+  {
+    "name": "f3_scripts",
+    "description": "A set of automation scripts for F3 workouts, data collection, and validation.",
+    "html_url": "https://github.com/danroberts728/f3_scripts",
+    "homepage": "",
+    "default_branch": "main",
+    "archived": false,
+    "languages": {},
+    "branches": 1,
+    "last_commit": "2022-12-21T23:46:34Z"
   },
   {
     "name": "trail_app",
@@ -33,21 +102,6 @@
     "last_commit": "2025-10-04T17:59:09Z"
   },
   {
-    "name": "MoodyBudgetAnalysis",
-    "description": "Interactive D3 visualization of Moody’s city budget data with drill-down and pie charts.",
-    "html_url": "https://github.com/danroberts728/MoodyBudgetAnalysis",
-    "homepage": "https://danroberts728.github.io/MoodyBudgetAnalysis/",
-    "default_branch": "main",
-    "archived": false,
-    "languages": {
-      "JavaScript": 73.4,
-      "CSS": 22.8,
-      "HTML": 3.8
-    },
-    "branches": 2,
-    "last_commit": "2025-10-03T14:28:47Z"
-  },
-  {
     "name": "F3MilestoneBot",
     "description": "Slack bot that announces and tracks F3 workout milestones for local AOs.",
     "html_url": "https://github.com/danroberts728/F3MilestoneBot",
@@ -59,29 +113,5 @@
     },
     "branches": 5,
     "last_commit": "2024-10-30T21:23:49Z"
-  },
-  {
-    "name": "f3_scripts",
-    "description": "A set of automation scripts for F3 workouts, data collection, and validation.",
-    "html_url": "https://github.com/danroberts728/f3_scripts",
-    "homepage": "",
-    "default_branch": "main",
-    "archived": false,
-    "languages": {},
-    "branches": 1,
-    "last_commit": "2022-12-21T23:46:34Z"
-  },
-  {
-    "name": "CocktailIngest",
-    "description": "A scalable data scraper to build a cocktail database from various web sources.",
-    "html_url": "https://github.com/danroberts728/CocktailIngest",
-    "homepage": "",
-    "default_branch": "main",
-    "archived": false,
-    "languages": {
-      "Python": 100
-    },
-    "branches": 1,
-    "last_commit": "2025-10-06T19:33:38Z"
   }
 ]
