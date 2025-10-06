@@ -65,21 +65,31 @@ async function getPagesUrl(user, repo) {
   }
 }
 
+function looksLikeBadge(url) {
+  const u = url.toLowerCase();
+  return u.endsWith(".svg")
+    || u.includes("shields.io")
+    || /\/actions\/workflows\/.+badge\.svg$/.test(u)
+    || u.includes("badge");
+}
+
 async function pickScreenshot(user, repo) {
   // 1) Try README first image (markdown or HTML)
   try {
     const readme = await getJSON(`https://api.github.com/repos/${user}/${repo}/readme`);
     if (readme?.download_url) {
       const md = await getText(readme.download_url);
-      // markdown ![alt](url) or HTML <img src="...">
       const mdImg = md.match(/!\[[^\]]*]\(([^)]+)\)/);
       const htmlImg = md.match(/<img[^>]+src=["']([^"']+)["']/i);
-      const url = (mdImg?.[1] || htmlImg?.[1] || "").trim();
-      if (url && /^https?:\/\//i.test(url)) return url;
-      // If relative path, construct raw URL
+      let url = (mdImg?.[1] || htmlImg?.[1] || "").trim();
+
+      // resolve relative paths
       if (url && !/^https?:\/\//i.test(url)) {
-        return `https://raw.githubusercontent.com/${user}/${repo}/HEAD/${url.replace(/^\.?\//, "")}`;
+        url = `https://raw.githubusercontent.com/${user}/${repo}/HEAD/${url.replace(/^\.?\//, "")}`;
       }
+
+      // Ignore badges/SVGs
+      if (url && !looksLikeBadge(url)) return url;
     }
   } catch (e) {
     /* ignore */
@@ -160,6 +170,7 @@ async function main() {
       shotUrl = await pickScreenshot(USER, r.name);
       if (shotUrl) {
         const ext = (shotUrl.split(".").pop() || "jpg").toLowerCase();
+
         const safeExt = ["png", "jpg", "jpeg", "webp"].includes(ext) ? ext : "jpg";
         await downloadTo(shotUrl, path.join(SHOTS_DIR, `${r.name}.${safeExt}`));
         // normalize extension to .jpg on disk for simplicity
