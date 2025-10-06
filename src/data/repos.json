@@ -3,7 +3,7 @@
     "name": "CraftysCocktails",
     "description": "Showing the Crafty's Cocktails bracket. Reads from Google sheet.",
     "html_url": "https://github.com/danroberts728/CraftysCocktails",
-    "homepage": "",
+    "homepage": "https://danroberts728.github.io/CraftysCocktails/",
     "default_branch": "main",
     "archived": false,
     "languages": {
@@ -36,7 +36,7 @@
     "name": "MoodyBudgetAnalysis",
     "description": "Interactive D3 visualization of Moody’s city budget data with drill-down and pie charts.",
     "html_url": "https://github.com/danroberts728/MoodyBudgetAnalysis",
-    "homepage": "",
+    "homepage": "https://danroberts728.github.io/MoodyBudgetAnalysis/",
     "default_branch": "main",
     "archived": false,
     "languages": {
