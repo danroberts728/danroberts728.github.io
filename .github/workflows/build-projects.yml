@@ -3,10 +3,23 @@ name: Build projects data
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 */12 * * *"  # every 12 hours
+    - cron: "0 */12 * * *"  # every 12 hours  
+  push:
+    branches: [ publish ]
+    # avoid infinite loops if this job itself pushes only these artifacts
+    paths-ignore:
+      - 'src/data/repos.json'
+      - 'assets/img/profile.jpg'
+      - 'assets/img/screenshots/**'
+
+  # 2) (optional) also run after a successful Pages deployment workflow
+  workflow_run:
+    workflows: ["pages-build-deployment", "Deploy to GitHub Pages"]
+    types: [completed]
 
 jobs:
   build:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     permissions:
       contents: write
