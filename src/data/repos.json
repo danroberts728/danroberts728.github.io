@@ -70,5 +70,18 @@
     "languages": {},
     "branches": 1,
     "last_commit": "2022-12-21T23:46:34Z"
+  },
+  {
+    "name": "CocktailIngest",
+    "description": "A scalable data scraper to build a cocktail database from various web sources.",
+    "html_url": "https://github.com/danroberts728/CocktailIngest",
+    "homepage": "",
+    "default_branch": "main",
+    "archived": false,
+    "languages": {
+      "Python": 100
+    },
+    "branches": 1,
+    "last_commit": "2025-10-06T19:33:38Z"
   }
 ]
