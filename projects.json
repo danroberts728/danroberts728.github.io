@@ -5,7 +5,8 @@
     "trail_app",
     "MoodyBudgetAnalysis",
     "F3MilestoneBot",
-    "f3_scripts"
+    "f3_scripts",
+    "CocktailIngest"
   ],
   "exclude": []
 }
