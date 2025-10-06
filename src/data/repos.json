@@ -15,21 +15,6 @@
     "last_commit": "2025-10-06T21:37:38Z"
   },
   {
-    "name": "danroberts728.github.io",
-    "description": "Home page",
-    "html_url": "https://github.com/danroberts728/danroberts728.github.io",
-    "homepage": "https://danroberts728.github.io/",
-    "default_branch": "main",
-    "archived": false,
-    "languages": {
-      "JavaScript": 74.6,
-      "CSS": 14.5,
-      "HTML": 10.9
-    },
-    "branches": 2,
-    "last_commit": "2025-10-06T19:50:29Z"
-  },
-  {
     "name": "CocktailIngest",
     "description": "A scalable data scraper to build a cocktail database from various web sources.",
     "html_url": "https://github.com/danroberts728/CocktailIngest",
