@@ -1,5 +1,18 @@
 [
   {
+    "name": "F3MilestoneBot",
+    "description": "Slack bot that announces and tracks F3 workout milestones for local AOs.",
+    "html_url": "https://github.com/danroberts728/F3MilestoneBot",
+    "homepage": "",
+    "default_branch": "main",
+    "archived": false,
+    "languages": {
+      "Python": 100
+    },
+    "branches": 5,
+    "last_commit": "2025-10-11T19:32:59Z"
+  },
+  {
     "name": "Surprise-Me-Lindsay",
     "description": "Tell me what you have and I'll give you some ideas of what you can make.",
     "html_url": "https://github.com/danroberts728/Surprise-Me-Lindsay",
@@ -7,12 +20,12 @@
     "default_branch": "main",
     "archived": false,
     "languages": {
-      "JavaScript": 67.3,
-      "CSS": 19.6,
-      "HTML": 13
+      "JavaScript": 71.2,
+      "CSS": 16.3,
+      "HTML": 12.5
     },
     "branches": 2,
-    "last_commit": "2025-10-06T21:37:38Z"
+    "last_commit": "2025-10-09T21:45:22Z"
   },
   {
     "name": "CocktailIngest",
@@ -25,7 +38,7 @@
       "Python": 100
     },
     "branches": 1,
-    "last_commit": "2025-10-06T19:33:38Z"
+    "last_commit": "2025-10-08T02:30:14Z"
   },
   {
     "name": "CraftysCocktails",
@@ -85,18 +98,5 @@
     },
     "branches": 11,
     "last_commit": "2025-10-04T17:59:09Z"
-  },
-  {
-    "name": "F3MilestoneBot",
-    "description": "Slack bot that announces and tracks F3 workout milestones for local AOs.",
-    "html_url": "https://github.com/danroberts728/F3MilestoneBot",
-    "homepage": "",
-    "default_branch": "main",
-    "archived": false,
-    "languages": {
-      "Python": 100
-    },
-    "branches": 5,
-    "last_commit": "2024-10-30T21:23:49Z"
   }
 ]
