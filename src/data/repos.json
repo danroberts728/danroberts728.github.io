@@ -7,12 +7,12 @@
     "default_branch": "main",
     "archived": false,
     "languages": {
-      "JavaScript": 63.2,
-      "CSS": 23.6,
-      "HTML": 13.2
+      "JavaScript": 62.5,
+      "CSS": 24.4,
+      "HTML": 13.1
     },
     "branches": 2,
-    "last_commit": "2025-11-04T01:56:36Z"
+    "last_commit": "2025-11-21T23:27:17Z"
   },
   {
     "name": "trail_app",
