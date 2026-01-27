@@ -83,5 +83,20 @@
     },
     "branches": 1,
     "last_commit": "2025-10-18T16:56:00Z"
+  },
+  {
+    "name": "Working-Days-App",
+    "description": "ChatGPT-generated Web App that gives the number of working days/hours between two calendar dates. I created this to test ChatGPT 5.2 and to help me price contracts.",
+    "html_url": "https://github.com/danroberts728/Working-Days-App",
+    "homepage": "http://craftylabs.dev/Working-Days-App/",
+    "default_branch": "main",
+    "archived": false,
+    "languages": {
+      "JavaScript": 65.8,
+      "HTML": 20,
+      "CSS": 14.2
+    },
+    "branches": 1,
+    "last_commit": "2026-01-23T19:34:26Z"
   }
 ]
