@@ -100,8 +100,8 @@
     "last_commit": "2025-10-11T19:32:59Z"
   },
   {
-    "name": "f3_scripts",
-    "description": "A set of automation scripts for F3 workouts, data collection, and validation.",
+    "name": "Working Days App",
+    "description": "ChatGPT-generated Web App that gives the number of working days/hours between two calendar dates. I created this to test ChatGPT 5.2 and to help me price contracts.",
     "html_url": "https://github.com/danroberts728/f3_scripts",
     "homepage": "",
     "default_branch": "main",
