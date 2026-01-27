@@ -6,7 +6,8 @@
     "MoodyBudgetAnalysis",
     "F3MilestoneBot",
     "f3_scripts",
-    "CocktailIngest"
+    "CocktailIngest",
+    "working-days-app"
   ],
   "exclude": []
 }
