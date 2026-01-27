@@ -7,66 +7,12 @@
     "default_branch": "main",
     "archived": false,
     "languages": {
-      "JavaScript": 62.5,
-      "CSS": 24.4,
-      "HTML": 13.1
-    },
-    "branches": 2,
-    "last_commit": "2025-11-21T23:27:17Z"
-  },
-  {
-    "name": "CocktailIngest",
-    "description": "A scalable data scraper to build a cocktail database from various web sources.",
-    "html_url": "https://github.com/danroberts728/CocktailIngest",
-    "homepage": "",
-    "default_branch": "main",
-    "archived": false,
-    "languages": {
-      "Python": 100
-    },
-    "branches": 1,
-    "last_commit": "2025-10-18T16:56:00Z"
-  },
-  {
-    "name": "Surprise-Me-Lindsay",
-    "description": "Tell me what you have and I'll give you some ideas of what you can make.",
-    "html_url": "https://github.com/danroberts728/Surprise-Me-Lindsay",
-    "homepage": "http://craftylabs.dev/Surprise-Me-Lindsay/",
-    "default_branch": "main",
-    "archived": false,
-    "languages": {
       "JavaScript": 62.2,
       "CSS": 24.3,
       "HTML": 13.4
     },
     "branches": 2,
     "last_commit": "2025-12-10T02:03:38Z"
-  },
-  {
-    "name": "MoodyBudgetAnalysis",
-    "description": "Interactive D3 visualization of Moody’s city budget data with drill-down and pie charts.",
-    "html_url": "https://github.com/danroberts728/MoodyBudgetAnalysis",
-    "homepage": "https://danroberts728.github.io/MoodyBudgetAnalysis/",
-    "default_branch": "main",
-    "archived": false,
-    "languages": {
-      "JavaScript": 73.4,
-      "CSS": 22.8,
-      "HTML": 3.8
-    },
-    "branches": 2,
-    "last_commit": "2025-10-03T14:28:47Z"
-  },
-  {
-    "name": "f3_scripts",
-    "description": "A set of automation scripts for F3 workouts, data collection, and validation.",
-    "html_url": "https://github.com/danroberts728/f3_scripts",
-    "homepage": "",
-    "default_branch": "main",
-    "archived": false,
-    "languages": {},
-    "branches": 1,
-    "last_commit": "2022-12-21T23:46:34Z"
   },
   {
     "name": "trail_app",
@@ -85,6 +31,21 @@
     },
     "branches": 14,
     "last_commit": "2025-10-04T17:59:09Z"
+  },
+  {
+    "name": "MoodyBudgetAnalysis",
+    "description": "Interactive D3 visualization of Moody’s city budget data with drill-down and pie charts.",
+    "html_url": "https://github.com/danroberts728/MoodyBudgetAnalysis",
+    "homepage": "https://danroberts728.github.io/MoodyBudgetAnalysis/",
+    "default_branch": "main",
+    "archived": false,
+    "languages": {
+      "JavaScript": 73.4,
+      "CSS": 22.8,
+      "HTML": 3.8
+    },
+    "branches": 2,
+    "last_commit": "2025-10-03T14:28:47Z"
   },
   {
     "name": "F3MilestoneBot",
@@ -122,5 +83,20 @@
     },
     "branches": 1,
     "last_commit": "2025-10-18T16:56:00Z"
+  },
+  {
+    "name": "Working-Days-App",
+    "description": "ChatGPT-generated Web App that gives the number of working days/hours between two calendar dates. I created this to test ChatGPT 5.2 and to help me price contracts.",
+    "html_url": "https://github.com/danroberts728/Working-Days-App",
+    "homepage": "http://craftylabs.dev/Working-Days-App/",
+    "default_branch": "main",
+    "archived": false,
+    "languages": {
+      "JavaScript": 65.8,
+      "HTML": 20,
+      "CSS": 14.2
+    },
+    "branches": 1,
+    "last_commit": "2026-01-23T19:34:26Z"
   }
 ]
