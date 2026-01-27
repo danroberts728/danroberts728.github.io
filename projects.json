@@ -1,16 +1,13 @@
 {
   "username": "danroberts728",
-  "include": [],
-  "exclude": [
-    "beer_trail_packages",
-    "trail_auth",
-    "trail_database",
-    "alabama_beer_trail_functions",
-    "shiptchallenge",
-    "ProjectEuler",
-    "Project-Euler-Answers",
-    "alabama-budget",
-    "BeerTrailApp_old",
-    "danroberts728.github.io"
-  ]
+  "include": [
+    "CraftysCocktails",
+    "trail_app",
+    "MoodyBudgetAnalysis",
+    "F3MilestoneBot",
+    "f3_scripts",
+    "CocktailIngest",
+    "Working-Days-App"
+  ],
+  "exclude": []
 }
