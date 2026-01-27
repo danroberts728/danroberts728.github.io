@@ -1,18 +1,18 @@
 [
   {
-    "name": "Surprise-Me-Lindsay",
-    "description": "Tell me what you have and I'll give you some ideas of what you can make.",
-    "html_url": "https://github.com/danroberts728/Surprise-Me-Lindsay",
-    "homepage": "https://danroberts728.github.io/Surprise-Me-Lindsay/",
+    "name": "CraftysCocktails",
+    "description": "Showing the Crafty's Cocktails bracket. Reads from Google sheet.",
+    "html_url": "https://github.com/danroberts728/CraftysCocktails",
+    "homepage": "https://danroberts728.github.io/CraftysCocktails/",
     "default_branch": "main",
     "archived": false,
     "languages": {
-      "JavaScript": 67.3,
-      "CSS": 19.6,
-      "HTML": 13
+      "JavaScript": 62.5,
+      "CSS": 24.4,
+      "HTML": 13.1
     },
     "branches": 2,
-    "last_commit": "2025-10-06T21:37:38Z"
+    "last_commit": "2025-11-21T23:27:17Z"
   },
   {
     "name": "CocktailIngest",
@@ -25,13 +25,13 @@
       "Python": 100
     },
     "branches": 1,
-    "last_commit": "2025-10-06T19:33:38Z"
+    "last_commit": "2025-10-18T16:56:00Z"
   },
   {
-    "name": "CraftysCocktails",
-    "description": "Showing the Crafty's Cocktails bracket. Reads from Google sheet.",
-    "html_url": "https://github.com/danroberts728/CraftysCocktails",
-    "homepage": "https://danroberts728.github.io/CraftysCocktails/",
+    "name": "Surprise-Me-Lindsay",
+    "description": "Tell me what you have and I'll give you some ideas of what you can make.",
+    "html_url": "https://github.com/danroberts728/Surprise-Me-Lindsay",
+    "homepage": "http://craftylabs.dev/Surprise-Me-Lindsay/",
     "default_branch": "main",
     "archived": false,
     "languages": {
